@@ -14,7 +14,7 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*Content h1 p and button*/
 #intro {
     background: #000;
     opacity: 0.8;
@@ -37,6 +37,27 @@ body {
     
 
 }
+
+.button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    left: 900px;
+    }
+
+.button:hover {
+    background-color: #333;
+}
+
+
+/*Nav*/
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -74,6 +95,14 @@ img {
     right: 0;
     bottom: 0;
     z-index: -1;
+}
+
+.container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: ;
 }
 
 footer {
