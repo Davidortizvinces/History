@@ -14,6 +14,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+#egypt{
+    background: #A6A57A;
+    
+}
 /*Content h1 p and button*/
 #intro {
     background: #000;
@@ -55,7 +60,58 @@ body {
 .button:hover {
     background-color: #333;
 }
+/*Egypt content*/
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
 
+}
+a {
+    color: burlywood;
+}
+.row h1 {
+    color: #000;
+    
+}
+
+.row p {
+    color: #fff;
+}
+
+/*Article*/
+
+.article {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.article-content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #333;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 24px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
 
 /*Nav*/
 nav ul {
