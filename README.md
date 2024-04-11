@@ -1,7 +1,7 @@
 # History Website
 
 The History Website provides users with a platform to explore reliable information about historical facts. With a focus on stories, evolution, gifts, pyramids, and more, this website aims to educate and engage visitors with fascinating historical content.
-
+![devices](https://github.com/Davidortizvinces/History/assets/153029523/8be0bd3c-8b13-43b7-956c-9f9f1fc236dd)
 ## Features
 
 ### Navigation Bar
