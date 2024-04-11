@@ -16,8 +16,11 @@ body {
 }
 
 #egypt{
-    background: #A6A57A;
+    background: #84B6E1;
     
+}
+#evolution {
+    background: #619ACB;
 }
 /*Content h1 p and button*/
 #intro {
@@ -113,6 +116,9 @@ a {
     padding-right: 400px;
 }
 
+.article li {
+   list-style-type: georgian;
+}
 /*Nav*/
 nav ul {
     list-style-type: none;
