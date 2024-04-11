@@ -25,21 +25,21 @@ The History Website provides users with a platform to explore reliable informati
 ### Validator Testing
 - HTML: No errors were returned when passing through the official W3C validator.
 - CSS: No errors were found when passing through the official (Jigsaw) validator.
-
+![proof](https://github.com/Davidortizvinces/History/assets/153029523/0cb2b554-9d22-4945-85e4-399c35f1ee97)
 ### Unfixed Bugs
-- No major bugs were encountered during testing.
+-Major bugs were encountered during testing.
 
 ## Deployment
 The History Website was deployed to GitHub Pages using the following steps:
 1. In the GitHub repository, navigate to the Settings tab.
 2. From the source section drop-down menu, select the Master Branch.
 3. Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-4. The live link can be found here - [History Website](https://yourgithubusername.github.io/history-website)
+4. The live link can be found here - [History Website](https://davidortizvinces.github.io/History/) 
 
 ## Credits
-- The HTML and CSS code for the History Website was created by [Your Name].
-- Video content sourced from [Video Source].
-- Favicon images from [Favicon Source].
-- Special thanks to [Name] for their assistance and guidance.
+- The HTML and CSS code for the History Website was created by david ortiz.
+- Video content sourced from pexel.
+- Favicon images from favicon.io
+- I would like to apologize, I don't think this page is completely good but I will improve.
 
-Congratulations on creating the History Website! You've taken a significant step towards sharing valuable historical information with the world.
+
