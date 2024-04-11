@@ -1,5 +1,7 @@
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     box-sizing: border-box;
 }
@@ -16,13 +18,15 @@ body {
     
 }
 
-#egypt{
+#egypt {
     background: #84B6E1;
     
 }
+
 #evolution {
     background: #619ACB;
 }
+
 /*Form*/
 .signup {
     background: #000;
@@ -43,8 +47,7 @@ strong {
     padding: 30px;
 }
 
-
-.signup-form>h2 {
+.signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -72,13 +75,15 @@ strong {
     background-color: #454b1b;
     color: #fafafa;
 }
+
 /*Content h1 p and button*/
 #intro {
     background: #000;
     opacity: 0.8;
-}   
+}
 
-#intro h1 {
+#intro h1,
+#intro p {
     font-size: 60px;
     display: flex;
     justify-content: center;
@@ -108,7 +113,7 @@ strong {
     text-decoration: none;
     position: relative;
     left: 900px;
-    }
+}
 
 .button:hover {
     background-color: #333;
@@ -120,15 +125,26 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 300px;
     border-radius: 10%;
     margin: 10px;
     padding: 10px;
 
 }
+.roww {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33.3%;
+    border-radius: 10%;
+    margin: 10px;
+    padding: 10px;
+}
+
 a {
     color: burlywood;
 }
+
 .row h1 {
     color: #000;
     
@@ -140,7 +156,8 @@ a {
 
 /*Article*/
 
-.article {
+.article,
+.article-content {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -169,8 +186,9 @@ a {
 }
 
 .article li {
-   list-style-type: georgian;
+    list-style-type: georgian;
 }
+
 /*Nav*/
 nav ul {
     list-style-type: none;
@@ -196,15 +214,7 @@ main {
     padding: 20px;
 }
 
-
-
-.back-video {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
+.back-video,
 .container {
     position: absolute;
     right: 0;
@@ -220,6 +230,7 @@ footer h1 {
     font-weight: bold;
     color: #6D3E13;
 }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -234,3 +245,92 @@ footer h1 {
     color: #6D3E13;
 }
 
+/* Media queries */
+
+/* Phones (576px and below) */
+@media (max-width: 576px) {
+    .button,
+    .join-button {
+        left: auto;
+        right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .back-video {
+        display: block;
+    }
+    nav {
+        display: block;
+    }
+    .roww,
+    .row {
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        width: 150px;
+        height: 100%;
+        position: relative;
+        margin-bottom: 0;
+    }
+    #intro h1 {
+        font-size: 20px;
+    }
+    .join-button {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .article-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 100px 100px;
+    }
+    .container,
+    .evolution {
+        display: none;
+    }
+    #evolution {
+        width: 33.3%;
+    }
+}
+
+/* Tablets (768px and up) */
+@media (min-width: 768px) {
+    .button,
+    .join-button {
+        left: auto;
+        right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-content {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Laptops (992px and up) */
+@media (min-width: 992px) {
+    .button,
+    .join-button {
+        left: auto;
+        right: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article-content {
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    .row {
+        left: 300px;
+    }
+}
