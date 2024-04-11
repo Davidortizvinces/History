@@ -13,8 +13,7 @@ The History Website provides users with a platform to explore reliable informati
 - Provides a brief overview of what users can expect to find on the History Website.
 
 ### Video Content
-- The website includes video content to enhance the user experience.
-- Users can watch informative videos related to historical topics.
+- The website includes video content to enhance the user experience but looks like a image
 
 ## Features Left to Implement
 - Additional sections providing more in-depth information on specific historical topics.
@@ -40,6 +39,6 @@ The History Website was deployed to GitHub Pages using the following steps:
 - The HTML and CSS code for the History Website was created by david ortiz.
 - Video content sourced from pexel.
 - Favicon images from favicon.io
-- I would like to apologize, I don't think this page is completely good but I will improve.
+- I would like to apologize, I don't think this page is completely good but I will improve. the next project I will do it much better.
 
 
