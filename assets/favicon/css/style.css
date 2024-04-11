@@ -114,11 +114,7 @@ strong {
     background-color: #333;
 }
 
-/*Section about us*/
-#about {
-    position: relative;
-    left: 190px;
-}
+
 /*Egypt content*/
 .row {
     display: flex;
@@ -202,12 +198,6 @@ main {
 
 
 
-img {
-    max-width: 100%;
-    height: auto;
-    alt: "Description of the image";
-}
-
 .back-video {
     position: absolute;
     right: 0;
@@ -220,7 +210,6 @@ img {
     right: 0;
     bottom: 0;
     z-index: -1;
-    background: ;
 }
 
 /*Footer*/
