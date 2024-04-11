@@ -10,9 +10,10 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: #fff;
-    background-color: #fff;
+    background-color: #000;
     margin: 0;
     padding: 0;
+    
 }
 
 #egypt{
@@ -21,6 +22,55 @@ body {
 }
 #evolution {
     background: #619ACB;
+}
+/*Form*/
+.signup {
+    background: #000;
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    
+}
+
+strong {
+    color: #619ACB;
+}
+
+.signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+
+.signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+
+.join-button {
+    position: relative;
+    left: 500px;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 /*Content h1 p and button*/
 #intro {
@@ -62,6 +112,12 @@ body {
 
 .button:hover {
     background-color: #333;
+}
+
+/*Section about us*/
+#about {
+    position: relative;
+    left: 190px;
 }
 /*Egypt content*/
 .row {
@@ -167,13 +223,25 @@ img {
     background: ;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
+/*Footer*/
+footer h1 {
+    position: relative;
     text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #6D3E13;
+}
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
-    
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #6D3E13;
 }
 
